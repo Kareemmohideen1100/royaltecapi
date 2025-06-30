@@ -58,7 +58,7 @@ public class loginController {
                     });
 
         } catch (Exception e) {
-            logger.error("Exception durdfedeingdda login for user {}: {}", loginRequest.getUsername(), e.getMessage());
+            logger.error("Exception durdfedeindgdda login for user {}: {}", loginRequest.getUsername(), e.getMessage());
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("An error occurred during login");
         }
     }
